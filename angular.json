@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "emergir-web:build:production"
+              "buildTarget": "emergir-web:build:production"
             },
             "development": {
-              "browserTarget": "emergir-web:build:development"
+              "buildTarget": "emergir-web:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "emergir-web:build"
+            "buildTarget": "emergir-web:build"
           }
         },
         "test": {
